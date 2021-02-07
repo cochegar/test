@@ -1,4 +1,9 @@
 <?php
-echo 'hello';
-echo 'worlddfdf222';
+ function test($str)
+ {
+
+
+     return $str;
+ }
+ echo test('test');
 ?>
