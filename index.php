@@ -15,4 +15,7 @@ function func($number)
  }
  echo test('test');
 echo func(10);
+$a=test('123');
+$b=test('123');
+
 ?>
