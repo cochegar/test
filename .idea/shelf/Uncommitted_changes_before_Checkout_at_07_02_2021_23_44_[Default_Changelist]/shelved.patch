@@ -1,0 +1,23 @@
+Index: index.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\necho 'hello';\r\necho 'worlddfdf';
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.php	(revision c112a3113bb5944bb7cbd15432569469e42ed4bd)
++++ index.php	(date 1612720419991)
+@@ -1,3 +1,9 @@
+ <?php
+-echo 'hello';
+-echo 'worlddfdf';
+\ No newline at end of file
++ function test($str)
++ {
++
++
++     return $str;
++ }
++ echo test('test');
++?>
+\ No newline at end of file
