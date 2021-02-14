@@ -13,15 +13,14 @@ function func($number)
 
      return $str;
  }
- //echo test('test');
-//echo func(10);
+
 
 
 echo '<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title class="app-t">{{Title}}</title>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 
@@ -30,8 +29,8 @@ echo '<!DOCTYPE html>
 <body>
 <div id="app-4">
     <ol>
-        <li v-for="todo2 in todos">
-            {{ todo2.text }}
+        <li v-for="item in todos">
+            {{ item.text }}
         </li>
     </ol>
 </div>

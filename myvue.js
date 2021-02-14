@@ -19,3 +19,7 @@ new Vue(
 
 
 )
+new Vue({el:".app-t",
+    data: {Title: 'Привет, Vue!'}
+
+});
